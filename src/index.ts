@@ -22,7 +22,7 @@ try {
   if (isNaN(game)) {
     throw new Error('not a number')
   }
-  if (game <= 0) {
+  if (game < 1) {
     throw new Error('negative number')
   }
   if (game > 3) {
