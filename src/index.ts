@@ -20,13 +20,13 @@ const scissor = 3
 try {
   const game = parseFloat(gameString)
   if (isNaN(game)) {
-    throw new Error('not a number')
+    throw new Error('Not a number')
   }
   if (game < 1) {
-    throw new Error('negative number')
+    throw new Error('Negative number')
   }
   if (game > 3) {
-    throw new Error('Number Higher than 3')
+    throw new Error('Number higher than 3')
   }
   // set min & max
   const min = 1
